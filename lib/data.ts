@@ -1,3 +1,5 @@
+import { assetPath } from './assets';
+
 export const PROFILE = {
   name: 'Hatake Kakashi',
   realName: 'Lohitha Damisetti',
@@ -11,7 +13,7 @@ export const PROFILE = {
   email: 'damisettilohitha@gmail.com',
   github: 'https://github.com/lohithadamisetti123',
   linkedin: 'https://www.linkedin.com/in/lohitha-damisetti-2bb36829a',
-  resume: '/resume.pdf',
+  resume: assetPath('/resume.pdf'),
 };
 
 export type ProfileId = 'recruiter' | 'developer' | 'hackathon' | 'browsing';
@@ -66,7 +68,7 @@ export const EPISODES = [
     ep: 1,
     name: 'PolicyGuard AI',
     tagline: 'The fine print never stood a chance.',
-    still: '/stills/masked.jpg',
+    still: assetPath('/stills/masked.jpg'),
     tint: '#e50914',
     rank: 'S-Rank',
     match: 98,
@@ -80,7 +82,7 @@ export const EPISODES = [
     ep: 2,
     name: 'Software Release Risk Heatmap',
     tagline: 'It saw the outage before you did.',
-    still: '/stills/face.jpg',
+    still: assetPath('/stills/face.jpg'),
     tint: '#2f6fed',
     rank: 'S-Rank',
     match: 96,
@@ -94,7 +96,7 @@ export const EPISODES = [
     ep: 3,
     name: 'StarCloset – Myntra Bharat AI',
     tagline: 'Head-to-toe. Occasion-ready. On budget.',
-    still: '/stills/kunai.jpg',
+    still: assetPath('/stills/kunai.jpg'),
     tint: '#f5b301',
     rank: 'S-Rank',
     match: 97,
@@ -127,20 +129,20 @@ export const SEASONS = [
     label: 'Season 1',
     name: 'The Junior College Arc',
     years: '2021 – 2023',
-    episodes: [{ title: 'Intermediate (MPC)', where: 'Sri Chaitanya Junior College, Kakinada', note: 'Scored 90.60%', still: '/stills/pull.jpg' }],
+    episodes: [{ title: 'Intermediate (MPC)', where: 'Sri Chaitanya Junior College, Kakinada', note: 'Scored 90.60%', still: assetPath('/stills/pull.jpg') }],
   },
   {
     label: 'Season 2',
     name: 'The Academy Arc',
     years: '2023 – 2027',
-    episodes: [{ title: 'B.Tech in Data Science', where: 'Aditya College of Engineering and Technology, Surampalem', note: 'CGPA 9.07 · Department Topper', still: '/stills/vest.jpg' }],
+    episodes: [{ title: 'B.Tech in Data Science', where: 'Aditya College of Engineering and Technology, Surampalem', note: 'CGPA 9.07 · Department Topper', still: assetPath('/stills/vest.jpg') }],
   },
   {
     label: 'Season 3',
     name: 'The Training Arc',
     years: '2026',
     episodes: [
-      { title: 'Full Stack Intern', where: 'Technical Hub Pvt Ltd · May – June 2026', note: 'Trained in full stack development with React Native and developed web and mobile applications.', still: '/stills/hand.jpg' },
+      { title: 'Full Stack Intern', where: 'Technical Hub Pvt Ltd · May – June 2026', note: 'Trained in full stack development with React Native and developed web and mobile applications.', still: assetPath('/stills/hand.jpg') },
     ],
   },
 ];

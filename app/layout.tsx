@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import localFont from 'next/font/local';
 import '@fontsource/bebas-neue/400.css';
 import '@fontsource/inter/400.css';
 import '@fontsource/inter/500.css';
@@ -6,7 +7,14 @@ import '@fontsource/inter/600.css';
 import '@fontsource/inter/700.css';
 import '@fontsource/inter/800.css';
 import '@fontsource/jetbrains-mono/400.css';
+import { assetPath } from '@/lib/assets';
 import './globals.css';
+
+const bangers = localFont({
+  src: '../public/fonts/bangers.woff2',
+  variable: '--font-bangers',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   title: 'Lohitha Damisetti · Unmasked · Full Stack Developer',
@@ -14,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Kakashi: Unmasked',
     description: "What's under the mask? Scroll to play.",
-    images: ['/stills/face.jpg'],
+    images: [assetPath('/stills/face.jpg')],
   },
 };
 
@@ -23,7 +31,7 @@ export const viewport: Viewport = { themeColor: '#000000', width: 'device-width'
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={bangers.variable}>{children}</body>
     </html>
   );
 }
