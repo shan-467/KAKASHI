@@ -56,7 +56,6 @@ export default function Finale() {
         </Magnetic>
         <Magnetic href={PROFILE.github}>GitHub ↗</Magnetic>
         <Magnetic href={PROFILE.linkedin}>LinkedIn ↗</Magnetic>
-        <Magnetic href={PROFILE.resume}>Résumé ↗</Magnetic>
       </div>
 
       <div className="roll" aria-label="Credits">

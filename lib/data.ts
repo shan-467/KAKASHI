@@ -10,10 +10,9 @@ export const PROFILE = {
   role: 'Full Stack Developer',
   summary:
     'Motivated Full Stack Developer skilled in building scalable applications with React, Node.js and modern backend technologies. Strong in API development, system design and problem solving.',
-  email: 'damisettilohitha@gmail.com',
-  github: 'https://github.com/lohithadamisetti123',
-  linkedin: 'https://www.linkedin.com/in/lohitha-damisetti-2bb36829a',
-  resume: assetPath('/resume.pdf'),
+  email: 'shansha2423@gmail.com',
+  github: 'https://github.com/shan-467',
+  linkedin: 'https://www.linkedin.com/in/muhammed-shehood/',
 };
 
 export type ProfileId = 'recruiter' | 'developer' | 'hackathon' | 'browsing';
