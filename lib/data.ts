@@ -2,9 +2,9 @@ import { assetPath } from './assets';
 
 export const PROFILE = {
   name: 'Hatake Kakashi',
-  realName: 'Lohitha Damisetti',
-  first: 'LOHITHA',
-  last: 'DAMISETTI',
+  realName: 'Muhammed Shehood',
+  first: 'MUHAMMED',
+  last: 'SHEHOOD',
   title: 'KAKASHI',
   subtitle: 'UNMASKED',
   role: 'Full Stack Developer',
