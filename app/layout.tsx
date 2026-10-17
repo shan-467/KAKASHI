@@ -17,7 +17,7 @@ const bangers = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'Muhammed Shehood · Unmasked · Full Stack Developer',
+  title: 'Muhammed Shehoode · Unmasked · Full Stack Developer',
   description: "Everyone wanted to know what's under the mask. Scroll to play the episode.",
   openGraph: {
     title: 'Kakashi: Unmasked',
